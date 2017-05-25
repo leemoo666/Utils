@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="QingtingBanner">
+        <attr name="qt_line_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PathView">
+        <attr name="pathColor" format="color" />
+        <attr name="pathWidth" format="float" />
+        <attr name="svg" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularRing">
+        <attr name="circleNumber" format="integer" />
+        <attr name="circleWidth" format="dimension" />
+        <attr name="roundColor" format="color" />
+        <attr name="circleTextColor" format="color" />
+        <attr name="circleRoundWidth" format="dimension" />
+        <attr name="circleTextSize" format="dimension" />
+        <attr name="circleColor1" format="color" />
+        <attr name="circleColor2" format="color" />
+        <attr name="circleColor3" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="drawable" format="integer" />
+        <attr name="color" format="color" />
+        <attr name="shadowRadius" format="float" />
+        <attr name="shadowDx" format="float" />
+        <attr name="shadowDy" format="float" />
+        <attr name="shadowColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundView"></declare-styleable>
+
+</resources>

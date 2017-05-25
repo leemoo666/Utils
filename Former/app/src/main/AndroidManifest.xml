@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ycx.former">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".guide.GuideActivity">
+
+        </activity>
+
+
+        <activity android:name=".login.LoginActivity">
+
+        </activity>
+
+
+        <activity android:name=".home.HomeActivity">
+
+        </activity>
+
+        <activity android:name=".verticaltablayout.VerticalTablayoutActivity">
+
+        </activity>
+
+        <activity android:name=".verticalviewpager.VerticalViewPagerActivity">
+
+        </activity>
+
+        <activity android:name=".tablinkviewpager.VerticalLinkActivity">
+
+        </activity>
+
+        <activity android:name=".banner.BannerActivity">
+
+        </activity>
+
+
+        <activity android:name=".ninegrid.NineGridActivity">
+
+
+        </activity>
+
+        <activity android:name=".mask.MaskActivity">
+
+        </activity>
+
+        <activity android:name=".ruler.RulerActivity">
+
+        </activity>
+
+        <activity android:name=".shimmer.ShimmerActivity">
+
+        </activity>
+
+        <activity android:name=".shaper.ShaperActivity">
+
+        </activity>
+
+        <activity android:name=".advert.AdvertActivity"></activity>
+
+        <activity android:name=".recycleview.RecycleActivity">
+
+        </activity>
+
+        <activity android:name=".svg.SVGActivity">
+
+        </activity>
+        <activity android:name=".ring.RingActivity">
+
+        </activity>
+
+        <activity android:name=".dialog.DialogActivity">
+
+        </activity>
+
+        <activity android:name=".loadingpoint.LoadingActivity">
+
+        </activity>
+
+        <activity android:name=".titanic.TitanicActivity">
+
+        </activity>
+
+        <activity android:name=".behavior.BehaviorActivity">
+
+        </activity>
+
+        <activity android:name=".behavior.FloatBehaviorActivity">
+
+        </activity>
+
+
+        <activity android:name=".sharescreen.ShareScreenActivity"></activity>
+
+        <activity android:name=".sharescreen.DetailActivity">
+
+        </activity>
+
+        <activity android:name=".editinput.EditTextActivity"></activity>
+
+        <activity android:name=".xfermode.XferModeActvity"></activity>
+
+        <activity android:name=".headerviewpager.HeaderViewPagerActivity"></activity>
+
+
+        <activity android:name=".webactivity.WebActivity">
+
+        </activity>
+
+        <activity android:name=".permissions.PermissionActivity">
+        </activity>
+
+        <activity android:name=".refreshview.RefreshActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

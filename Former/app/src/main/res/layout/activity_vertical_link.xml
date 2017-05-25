@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:id="@+id/vtlLink"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="#EF7062"
+        android:visibility="visible"
+        app:indicator_color="#FF00ff"
+        app:indicator_corners="5dp"
+        app:indicator_gravity="right"
+        app:tab_height="60dp"
+        app:tab_mode="scrollable" />
+
+    <com.ycx.former.widget.VerticalViewPager
+        android:id="@+id/vpLink"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+</LinearLayout>

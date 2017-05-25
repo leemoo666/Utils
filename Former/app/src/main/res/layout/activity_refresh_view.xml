@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ycx.former.home.HomeActivity">
+
+    <com.ycx.former.refreshview.RefreshView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#4c9935" />
+
+        <com.ycx.former.refreshview.MListView
+            android:id="@+id/rvRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.ycx.former.refreshview.MListView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#909995" />
+    </com.ycx.former.refreshview.RefreshView>
+
+
+</LinearLayout>
